@@ -1,0 +1,537 @@
+@media (max-width: 768px) {
+    .section_a {
+        flex-direction: column;
+        gap: 2px;
+
+
+    }
+
+
+    .navbar {
+        height: auto;
+    }
+
+
+    .section_a {
+        align-items: start;
+    }
+}
+
+/*      Hero Section    */
+
+@media (max-width: 1135px) {
+
+    .hero_sec_heading p{
+        font-size: 1.6rem;
+    }
+
+    .achivment_content{
+        /* width: 42%; */
+        padding-left: 7rem;
+    }
+
+    .achivment_content h2{
+        font-size: 3.6rem;
+    }
+}
+
+@media (max-width: 1025px) {
+    .demo_section h2{
+        font-size: 5rem;
+    }
+
+    .footer_section{
+        padding: 3rem 0rem;
+    }
+}
+@media (max-width: 1015px) {
+
+    .hero_sec_heading h1{
+        font-size: 4.5rem;
+    }
+
+    .hero_sec_heading img{
+        margin-left: 30rem;
+    }
+
+    .first_img_section h3{
+        font-size: 2.6rem;
+    }
+
+    .first_img_section p{
+        font-size: 1.8rem;
+    }
+
+    .unlock_section_content h2{
+        font-size: 3rem;
+    }
+
+    .achivment_content h2{
+        font-size: 3.4rem;
+    }
+
+    .two_row_column div h2{
+        font-size: 2.6rem;
+    }
+    .two_row_column div p{
+        font-size: 1.6rem;
+    }
+
+    .copy_rigth_section{
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .container {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .hero-section{
+        padding: 50px 0;
+        justify-content: start;
+    }
+    .hero_sec_heading{
+        width: 45%;
+    }
+
+    .hero_img{
+        width: 35%;
+        padding-left: 5rem;
+    }
+
+    .unlock_section_content{
+        max-width: 55%;
+    }
+
+    .achivment_content h2{
+        font-size: 3rem;
+    }
+    .achivment_content p{
+        font-size: 1.6rem;    
+    }
+
+    .two_row_column div h2{
+        font-size: 2.2rem;
+    }
+    .two_row_column div p{
+        font-size: 1.4rem;
+    }
+
+    .customer_section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .customer_content p{
+        font-size: 2rem;
+    }
+
+    .community_updates_img h3{
+        font-size: 1.8rem;
+    }
+
+    .information_content{
+        margin-left: 2rem;
+    }
+
+    .update-section div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .hero_sec_heading{
+        width: 50%;
+    }
+
+    .hero_img{
+        max-width: 35%;
+        height: auto;
+    }
+
+    .achivment_content{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 850px) {
+    .hero_sec_heading{
+        max-width: 400px;
+    }
+    .hero_img{
+        max-width: 300px;
+    }    
+    .hero_img img{
+        max-width: 300px;
+    }   
+    
+    .unlock_section_img{
+        max-width: 35%;
+    }
+    .unlock_section_img img{
+        max-width: 100%;
+    }
+
+    .achivment_img{
+        width: 55%;
+    }
+
+    .information_content{
+        margin-left: 0rem;
+    }
+
+    .update-section div input{
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media (max-width: 790px) {
+    .hero_sec_heading h1{
+        font-size: 4rem;
+    }
+
+    .hero_sec_heading img{
+        margin-left: 20rem;
+    }
+
+    .first_img_section h3{
+        font-size: 2.2rem;
+    }
+
+    .first_img_section p{
+        font-size: 1.4rem;
+    }
+
+    .achivment_content p{
+        font-size: 1.2rem;    
+    }
+
+    .unlock_twond_content {
+        padding-top: 0rem;
+    }
+}
+
+@media (max-width: 762px) {
+    .achivment_section{
+        flex-direction: column;
+    }
+
+    
+    .achivment_content{
+        width: 50%;
+        margin: 2rem auto;
+
+    }
+
+    .achivment_content h2{
+        font-size: 3.8rem;
+    }
+
+    .achivment_content p{
+        font-size: 1.8rem;    
+    }
+
+    .achivment_img{
+        width: 70%;
+        margin: 2rem auto;
+    }
+    .two_row_column div h2{
+        font-size: 3rem;
+    }
+    .two_row_column div p{
+        font-size: 2rem;
+    }
+
+    .unlock_twond_content {
+        padding-top: 0rem;
+    }
+
+    .customer_content p{
+        font-size: 1.6rem;
+    }
+
+    .community_updates_three_col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .community_updates_img{
+        width: 60%;
+        padding-top: 3rem;
+    }
+
+    .first_img_section {
+        max-width: 60%;
+    }
+
+    .demo_section h2{
+        font-size: 3.2rem;
+    }
+
+    .footer_section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem auto;
+        row-gap: 4rem;
+    }
+
+    .copy_rigth_section{
+        max-width: 60%;
+        margin-left: 0;
+    }
+
+    .information_section{
+        width: 75%;
+    }
+
+    .update-section{
+        width: 75%;
+    }
+
+    .update-section div input{
+        font-size: 1.6rem;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+
+    .hero-section{
+        flex-direction: column;
+    }
+    .hero_sec_heading{
+        width: 70%;
+        margin: 2rem auto;
+    }
+
+    .hero_img{
+        width: 70%;
+        margin: 2rem auto;
+        padding-left: 0;
+    }  
+
+    .hero_img img{
+        width: 100%;
+    }
+
+    .unlock_section{
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+
+    .unlock_section_img{
+       width: 100%;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+    .unlock_section_img img{
+        width: 100%;
+    }
+
+    .unlock_section_content{
+        max-width: 85%;
+        margin: 0 auto;
+    }
+
+    .unlock_section_content h2{
+        font-size: 4rem;
+    }
+
+    .unlock_section_content p{
+        font-size: 1.8rem;
+    }
+
+    .achivment_content{
+        width: 60%;
+    }
+
+    .customer_content {
+        padding-left: 2rem;
+    }
+    .customer_content div{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .first_img_section h3{
+        font-size: 2rem;
+    }
+
+    .first_img_section p{
+        font-size: 1.2rem;
+    }
+
+    .achivment_content{
+        width: 70%;
+    }
+
+    .achivment_img{
+        width: 95%;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .hero_sec_heading{
+        width: 90%;
+        /* margin: 2rem auto; */
+    }
+
+    .hero_img{
+        width: 90%;
+        margin: 0;
+        padding-left: 0;
+    }  
+
+    .client_section_heading p{
+        font-size: 1.6rem;
+    }
+
+    .client_section_img{
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 3rem;
+    }
+
+    .icons_with_col{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 4rem;
+    }
+
+    
+    .first_img_section{
+        max-width: 75%;
+    }
+
+    .first_img_section h3{
+        font-size: 3.4rem;
+    }
+
+    .first_img_section p{
+        font-size: 2rem;
+    }
+
+    .unlock_section_content{
+        max-width: 90%;
+    }
+    .unlock_section_content h2{
+        font-size: 3rem;
+    }
+
+    .unlock_section_content p{
+        font-size: 1.4rem;
+    }
+
+    .achivment_content{
+        width: 80%;
+    }
+
+    .two_row_column div h2{
+        font-size: 2.2rem;
+    }
+    .two_row_column div p{
+        font-size: 1.4rem;
+    }
+
+    .community_updates_img h3{
+        font-size: 2.2rem;
+        padding-left: 0rem;
+    }
+
+    .demo_section h2{
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .tital_with_description h2{
+        font-size: 2.6rem;
+    }
+
+    .first_img_section h3{
+        font-size: 3rem;
+    }
+
+    .unlock_section_content{
+        max-width: 95%;
+    }
+
+    .unlock_section_content h2{
+        font-size: 2.4rem;
+    }
+
+    .achivment_content{
+        width: 95%;
+    }
+
+    .achivment_content h2{
+        font-size: 3.6rem;
+    }
+
+    .achivment_content p{
+        font-size: 1.6rem;    
+    }
+
+    .two_row_column div h2{
+        font-size: 1.8rem;
+    }
+    .two_row_column div p{
+        font-size: 1.2rem;
+    }
+
+    .customer_content {
+        padding-left: 1rem;
+    }
+    .customer_content div{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+    }
+
+    #meet_customers{
+        font-size: 1.4rem;
+    }
+
+    .community_updates_img h3 {
+        font-size: 2rem;
+    }
+
+    .demo_section h2{
+        font-size: 2.4rem;
+    }
+
+    .copy_rigth_section{
+        max-width: 75%;
+    }
+}
+
+@media(max-width: 390px){
+    
+    .hero_sec_heading img{
+        margin-left: 15rem;
+    }
+
+    .hero_sec_heading h1 {
+        font-size: 3.4rem;
+    }
+}
